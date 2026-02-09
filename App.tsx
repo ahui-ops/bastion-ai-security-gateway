@@ -97,7 +97,7 @@ const App: React.FC = () => {
     }
   };
 
-  const googleClientId = process.env.VITE_GOOGLE_CLIENT_ID || '';
+  const googleClientId = (import.meta as any).env?.VITE_GOOGLE_CLIENT_ID || '';
 
   return (
     <GoogleOAuthProvider clientId={googleClientId}>
