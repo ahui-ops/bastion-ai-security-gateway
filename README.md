@@ -8,7 +8,7 @@
 ## � About the Project
 
 ### 🛡️ Inspiration
-As AI transitions into **Autonomous Agents**, they face a dual crisis: **Infiltration** (hijacking via indirect injections) and **Exfiltration** (leaking system prompts). Research shows agent vulnerability rates $V_{rate} > 26\%$, yet traditional tools show 0% detection because they cannot parse semantic intent. We built **Bastion** to give agents a "Semantic Immune System."
+As AI transitions into **Autonomous Agents**, they face a dual crisis: **Infiltration** (hijacking via indirect injections) and **Exfiltration** (leaking system prompts). Research shows agent vulnerability rates $V_{rate} > 26\%$, yet traditional tools show 0% detection because they cannot parse semantic intent. I built **Bastion** to give agents a "Semantic Immune System."
 
 ### 🚀 What it does
 Bastion is an AI Security Gateway that intercepts and audits agent data streams:
@@ -17,14 +17,14 @@ Bastion is an AI Security Gateway that intercepts and audits agent data streams:
 *   **Privacy Layer**: Local PII redaction ensuring $\text{Data}_{leak} = 0$.
 *   **Canary Defense**: Injects invisible markers to trace and block covert leaks.
 
-### 🏗️ How we built it
-We utilized **React 19** and **Vite** for a high-performance dashboard. The core engine is **Gemini 3 (Flash)**, integrated via the Google Generative AI SDK, paired with the **Gmail** and **GitHub REST APIs** for live data auditing.
+### 🏗️ How I built it
+I utilized **React 19** and **Vite** for a high-performance dashboard. The core engine is **Gemini 3 (Flash)**, integrated via the Google Generative AI SDK, paired with the **Gmail** and **GitHub REST APIs** for live data auditing.
 
-### 🚧 Challenges we ran into
-The primary challenge was the non-deterministic nature of AI. We solved this by implementing a **Heuristic-AI Hybrid Layer**, where Gemini provides reasoning, but a deterministic auditor (Canary check) makes the final security decision. We also built a custom retry-service to handle API rate limits.
+### 🚧 Challenges I ran into
+The primary challenge was the non-deterministic nature of AI. I solved this by implementing a **Heuristic-AI Hybrid Layer**, where Gemini provides reasoning, but a deterministic auditor (Canary check) makes the final security decision. I also built a custom retry-service to handle API rate limits.
 
-### 🧠 What we learned
-We learned that in the agentic era, **Context is the new Firewall**. Security is no longer about blocking "bad words" but understanding hierarchical instruction priority through Gemini 3's Long Context window.
+### 🧠 What I learned
+I learned that in the agentic era, **Context is the new Firewall**. Security is no longer about blocking "bad words" but understanding hierarchical instruction priority through Gemini 3's Long Context window.
 
 ---
 
