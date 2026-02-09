@@ -11,7 +11,8 @@ export default defineConfig(({ mode }) => {
     },
     plugins: [react()],
     define: {
-      'process': { env: {} }, // Polyfill process for libraries that expect it
+      'process.env': {},
+      'process': { env: {} }
     },
     resolve: {
       alias: {
