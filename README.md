@@ -52,7 +52,7 @@ Uses Gemini 3's **Long Context** to analyze multi-step semantic hijacking attemp
 ### 2. Repo Sentinel (Context-Aware Audit)
 Beyond regex: understands code intent to find leaked business logic, system prompts, and "Digital DNA" before they hit production.
 
-### 3. Canary Defense (100% Deterministic)
+### 3. Canary Defense
 Injects invisible "tripwire" tokens into prompts. If the AI output contains these tokens, a breach is confirmed with **zero false positives**.
 
 ### 4. Zero-Leak Privacy
