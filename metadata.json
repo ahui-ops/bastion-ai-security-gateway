@@ -1,0 +1,9 @@
+
+{
+  "name": "Bastion AI Security Gateway",
+  "description": "A world-class AI Agent security platform focusing on prompt injection protection, privilege auditing, and memory consistency for enterprise LLM applications.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
